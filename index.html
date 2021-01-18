@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- carousel css-->
@@ -28,7 +29,8 @@
          <div class="filme-principal">
              <div class="container">
                  <h3 class="titulo">Attack On Titan</h3>
-                 <p class="descricao">Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não deixará nenhum deles vivo e buscará sua vingança completa.</p>
+                 <h5 class="temporada">Quarta temporada disponível</h5>
+                 <p class="descricao">Eren Jaeger jurou eliminar todos os Titãs, mas em uma batalha desesperada ele se torna aquilo que mais odeia. Com seus novos poderes, ele luta pela liberdade da humanidade, combatendo os monstros que ameaçam seu lar. Mesmo depois de derrotar a Titã Fêmea, Eren não consegue descansar - uma horda de Titãs se aproximam da Muralha Rose e a batalha em nome da humanidade continua!</p>
                 <div class="botoes">
                     <button class="botao">
                         <i class="fas fa-play"></i>
@@ -40,13 +42,44 @@
                     </button>
                 </div>
             </div>
-
          </div>
      </main>
+     <section class="carousel">
+         <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./src/img/promissed-neverland.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/peaky-blinders.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/alice-in-borderland.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/kimetsu.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/lupin.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/irlandes.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/interestellar-jpg.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/jujutsu.jpg" alt="" class="filme-wrapper">
+            </div>
+            <div class="item">
+                <img src="./src/img/tenet.jpg" alt="" class="filme-wrapper">
+            </div>
+         </div>
+     </section>
      <script src="https://kit.fontawesome.com/8b38961140.js" crossorigin="anonymous"></script>
      <!-- carousel js-->
      <script src="src/js/carousel/jquery.min.js"> </script>
      <script src="src/js/carousel/owl.carousel.min.js"> </script>
+     <script src="src/js/carousel/main.js"> </script>
     
  </body>
  </html>

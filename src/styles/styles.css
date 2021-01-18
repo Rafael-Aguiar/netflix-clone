@@ -60,7 +60,7 @@ header nav a:hover {
 }
 
 .filme-principal .container {
-    width: 60%;
+    width: 50%;
 }
 
 .filme-principal .titulo {
@@ -68,6 +68,9 @@ header nav a:hover {
     margin-top: 75px;
 }
 
+.filme-principal .temporada {
+    margin-bottom: 25px;
+}
 .filme-principal .descricao {
     margin-bottom: 25px;
     margin-right: 50px;
@@ -93,4 +96,12 @@ header nav a:hover {
 
 .botao i {
     margin-right: 8px;
+}
+
+.filme-wrapper {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    cursor: pointer;
 }
